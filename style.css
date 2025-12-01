@@ -1,0 +1,42 @@
+.navbar {
+    background-color: rgb(45, 45, 45) !important;
+}
+
+.navbar .navbar-brand{
+    color: aliceblue !important;
+}
+
+.navbar .navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-toggler-icon:hover {
+    filter: invert(37%) sepia(96%) saturate(2907%) hue-rotate(205deg) brightness(96%) contrast(95%);
+}
+
+
+.navbar .nav-link{
+    color: aliceblue !important;
+}
+
+.navbar .btn.btn-outline-success{
+    color: rgb(213, 218, 222) !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.home:hover{
+    color:rgb(220, 220, 220) !important;
+}
+
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
