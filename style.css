@@ -1,5 +1,6 @@
 .navbar {
-    background-color: rgb(45, 45, 45) !important;
+    background-color: rgb(152, 135, 81) !important;
+    opacity: 80% !important;
 }
 
 .navbar .navbar-brand{
@@ -10,8 +11,9 @@
     filter: invert(1);
 }
 .navbar-toggler-icon:hover {
-    filter: invert(37%) sepia(96%) saturate(2907%) hue-rotate(205deg) brightness(96%) contrast(95%);
+    filter: invert(84%) sepia(34%) saturate(1500%) hue-rotate(1deg) brightness(103%) contrast(2000%);
 }
+
 
 
 .navbar .nav-link{
@@ -38,5 +40,6 @@
     outline: none !important;
     box-shadow: none !important;
 }
+
 
 
