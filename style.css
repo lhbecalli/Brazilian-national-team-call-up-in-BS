@@ -1,3 +1,5 @@
+
+/* Estilos do NavBar */
 .navbar {
     background-color: rgb(152, 135, 81) !important;
     opacity: 80% !important;
@@ -35,11 +37,55 @@
 
 
 
+
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: none !important;
     box-shadow: none !important;
 }
+/* ==================== Fim estilos NavBar ============================== */
 
 
+/* ------------------- Estilos Carrosel*/
+.carousel-control-prev{
+    left: -60px;
+}
 
+.carousel-control-next{
+        right: -60px;
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+
+  /* Diminui o tamanho total do carrossel */
+  .carousel-item {
+    height: 500px; 
+  }
+
+  .carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: contain; 
+    margin: 0 auto;
+    display: block;
+  }
+  .carousel-control-prev {
+    left: 0 !important;
+  }
+
+  .carousel-control-next {
+    right: 0 !important;
+  }
+
+  /* Torna elas invisíveis e sem área clicável */
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+}
+.carousel {
+  touch-action: pan-y !important;
+}

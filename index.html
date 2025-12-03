@@ -1,142 +1,188 @@
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Site BS</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site BS</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
 
 <style>
 
-    
+
 </style>
 
 
-  <body>
-    <nav class="navbar col-12 m-auto bg-body-tertiary" style="z-index: 999;">
-  <div class="container-fluid col-11 m-auto">
-    <a class="navbar-brand home" href="#">CBF</a>
-    <a class="navbar-brand home" href="#" g> https://www.cbf.com.br/</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon icone"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active home" aria-current="page" href="#">Página inicial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link home" href="#">Link dos produtos</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle home" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Mais Informações
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
+<body>
+  <nav class="navbar col-12 m-auto col-lg-12 mb-4 mb-lg-0 bg-body-tertiary" style="z-index: 999;">
+    <div class="container-fluid col-11 m-auto">
+      <a class="navbar-brand home" href="#">CBF</a>
+      <a class="navbar-brand home" href="#" g> https://www.cbf.com.br/</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icone"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active home" aria-current="page" href="#">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link home" href="#">Link dos produtos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle home" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Mais Informações
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav> 
+  </nav>
 
 
- <!-- Seção do carrosel -->
-<section class="py-5"> <div class="container">
-    
+<!-- SECTION 1 ( a produzir ) 
+   <section class="py-5">
+  <div class="container">
     <div class="row align-items-center">
-      
-      <div class="col-lg- mb-4 mb-lg-0">
-        <div id="carouselExampleCaptions" class="carousel slide shadow rounded">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          </div>
-          
-          <div class="carousel-inner rounded" >
-            <div class="carousel-item active" >
-              <img src="img/image.png" class="d-block w-100" alt="Imagem 1">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p><strong>Marquinhos</strong></p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Marquin.jpg" class="d-block w-100" alt="Imagem 2">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-              </div>
-            </div>
-             <div class="carousel-item">
-              <img src="img/unnamed (1).jpg" class="d-block w-100" alt="Imagem 3">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/unnamed (2).jpg" class="d-block w-100" alt="Imagem 4">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/unnamed (3).jpg" class="d-block w-100" alt="Imagem 5">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/unnamed (4).jpg" class="d-block w-100" alt="Imagem 6">
-              <div class="carousel-caption d-none d-md-block">
-              </div>
-            </div>
-          </div>
-          
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
+      <div class="col-12">
 
-      <div class="col-lg-6 ps-lg-5"> <h2 class="display-5 fw-bold">Título do Destaque</h2>
-        <p class="lead">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate incidunt repudiandae iusto doloremque esse at quia ad recusandae, rem, quis, rerum nostrum? Impedit quos atque commodi blanditiis rerum? Molestias, rerum?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repellat deleniti laborum nulla distinctio dolorum obcaecati optio quae accusamus! Consequatur repellat enim quae dolore vero saepe deserunt, nesciunt magnam debitis!
-        </p>
-        <button class="btn btn-primary btn-lg mt-3">Saiba Mais</button>
-      </div>
+        <img src="img/unnamed (5).jpg" class="w-100 h-25 opacity-75 ">  -->
 
-    </div> </div>
+
+  </div>
 </section>
 
-  
-  
-  
-  
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+
+  <!-- ====================== SEÇÃO DO CARROSEL ==================== -->
+ <section class="py-5"> 
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <div id="meuCarrossel" class="carousel slide shadow rounded" data-bs-touch="true" data-bs-ride="carousel">
+              
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+                 <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="4"></button>
+                   <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="5"></button>
+                   <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="6"></button>
+
+              </div>
+              
+              <div class="carousel-inner rounded">
+                
+                <div class="carousel-item active" 
+                     data-titulo="Alisson" 
+                     data-desc="Posição: Goleiro.
+Descrição curta: Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
+Ponto forte: Reflexos e posicionamento impecáveis, além de excelente jogo com os pés.">
+                  <img src="img/image.png" class="d-block w-100" alt="Marquinhos">
+                </div>
+
+                <div class="carousel-item" 
+                     data-titulo="Eder Militão" 
+                     data-desc="Posição: Zagueiro (também pode atuar como lateral-direito).
+Descrição: Defensor rápido, agressivo e muito físico, com estilo moderno.
+Ponto forte: Velocidade e poder de recuperação, ganhando duelos mesmo em situações difíceis.">
+                  <img src="img/unnamed.jpg" class="d-block w-100" alt="Treino">
+                </div>
+
+                <div class="carousel-item" 
+                     data-titulo="Marquinhos" 
+                     data-desc="Posição: Zagueiro (também atua como lateral-direito ocasionalmente).
+Descrição: Defensor extremamente consistente, líder nato e muito técnico.
+Ponto forte: Excelente leitura de jogo e antecipação, dificilmente é pego fora de posição.">
+                  <img src="img/Marquin.jpg" class="d-block w-100" alt="Torcida">
+                </div>
+
+                <div class="carousel-item" 
+                     data-titulo="Casemiro" 
+                     data-desc="Posição: Volante (primeiro volante).
+Descrição: Meio-campista extremamente competitivo, líder e especialista em proteger a defesa.
+Ponto forte: Desarme e imposição física, dominando o meio-campo e quebrando jogadas com precisão.">
+                  <img src="img/unnamed (1).jpg" class="d-block w-100" alt="Torcida">
+                </div>
+
+                  <div class="carousel-item" 
+                     data-titulo="Coutinho" 
+                     data-desc="Posição: Meia-atacante / ponta esquerda.
+Descrição: Jogador criativo, habilidoso e muito técnico, especialista em jogadas individuais.
+Ponto forte: Finalização de média distância e corte para dentro, criando chances e gols em espaços curtos.">
+                  <img src="img/unnamed (2).jpg" class="d-block w-100" alt="Torcida">
+                </div>
+
+                  <div class="carousel-item" 
+                     data-titulo="Bruno Henrique" 
+                     data-desc="Posição: Ponta esquerda / atacante.
+
+Descrição: Jogador explosivo, rápido e letal em transições, muito vertical.
+
+Ponto forte: Arrancada e velocidade, dominando contra-ataques e atacando profundidade como poucos.">
+                  <img src="img/unnamed (3).jpg" class="d-block w-100" alt="Torcida">
+                </div>
+
+                 <div class="carousel-item" 
+                     data-titulo="Neymar Jr" 
+                     data-desc="Posição: Ponta esquerda / meia-atacante.
+Descrição: Extremamente criativo e decisivo.
+Ponto forte: Drible e visão de jogo, desequilibrando defesas e criando chances com facilidade.">
+                  <img src="img/unnamed (4).jpg" class="d-block w-100" alt="Torcida">
+                </div>
+
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-6 ps-lg-5"> 
+            <div class="texto-conteudo">
+                <h2 class="display-5 fw-bold" id="display-titulo">Alisson</h2>
+                <p class="lead" id="display-descricao">
+                Posição: Goleiro.
+Descrição curta: Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
+Ponto forte: Reflexos e posicionamento impecáveis, além de excelente jogo com os pés.
+                </p>
+                <button class="btn btn-primary btn-lg mt-3">Saiba Mais</button>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </section>
+
+
+   
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+   crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+
 </html>
