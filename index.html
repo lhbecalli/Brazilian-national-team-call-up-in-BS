@@ -7,8 +7,12 @@
 
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
  <link href="style.css" rel="stylesheet">
-</head>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <body>
   <nav class="navbar col-12 m-auto col-lg-12 mb-0 mb-lg-0 bg-body-tertiary" style="z-index: 999;">
     <div class="container-fluid col-11 m-auto">
@@ -64,7 +68,11 @@
  <!-- ======================== -->
 
   <!-- ====================== SEÇÃO DO CARROSEL ==================== -->
- <section class="py-5"> 
+ <section class="py-5 position-relative"> 
+
+  
+      <img src="img/Logo_CBF-removebg-preview.png" class="logo-cbf">
+
       <div class="container">
         <div class="row align-items-center">
           
@@ -84,58 +92,58 @@
               
               <div class="carousel-inner rounded">
                 
-                <div class="carousel-item active" 
-                     data-titulo="Alisson" 
-                     data-desc="Posição: Goleiro.
-Descrição curta: Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
-Ponto forte: Reflexos e posicionamento impecáveis, além de excelente jogo com os pés.">
+                <div class="carousel-item active"
+                     data-titulo="Alisson"
+                     data-posicao="Goleiro"
+                     data-desc="Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
+ Ponto forte: Reflexos e posicionamento impecáveis, além de excelente jogo com os pés.">
                   <img src="img/Alisson.png" class="d-block w-100" alt="Marquinhos">
                 </div>
 
                 <div class="carousel-item" 
-                     data-titulo="Eder Militão" 
-                     data-desc="Posição: Zagueiro (também pode atuar como lateral-direito).
-Descrição: Defensor rápido, agressivo e muito físico, com estilo moderno.
+                     data-titulo="Eder Militão"
+                     data-posicao="Zagueiro" 
+                     data-desc="Defensor rápido, agressivo e muito físico, com estilo moderno.
 Ponto forte: Velocidade e poder de recuperação, ganhando duelos mesmo em situações difíceis.">
                   <img src="img/EderMilitao.jpg" class="d-block w-100" alt="Treino">
                 </div>
 
                 <div class="carousel-item" 
                      data-titulo="Marquinhos" 
-                     data-desc="Posição: Zagueiro (também atua como lateral-direito ocasionalmente).
-Descrição: Defensor extremamente consistente, líder nato e muito técnico.
+                     data-posicao="Zagueiro"
+                     data-desc="Defensor extremamente consistente, líder nato e muito técnico.
 Ponto forte: Excelente leitura de jogo e antecipação, dificilmente é pego fora de posição.">
                   <img src="img/Marquin.jpg" class="d-block w-100" alt="Torcida">
                 </div>
 
                 <div class="carousel-item" 
                      data-titulo="Casemiro" 
-                     data-desc="Posição: Volante (primeiro volante).
-Descrição: Meio-campista extremamente competitivo, líder e especialista em proteger a defesa.
+                     data-posicao="Volante"
+                     data-desc="Meio-campista extremamente competitivo, líder e especialista em proteger a defesa.
 Ponto forte: Desarme e imposição física, dominando o meio-campo e quebrando jogadas com precisão.">
                   <img src="img/Casemiro.jpg" class="d-block w-100" alt="Torcida">
                 </div>
 
                   <div class="carousel-item" 
                      data-titulo="Coutinho" 
-                     data-desc="Posição: Meia-atacante / ponta esquerda.
-Descrição: Jogador criativo, habilidoso e muito técnico, especialista em jogadas individuais.
+                     data-posicao="Meia-Atacante"
+                     data-desc="Jogador criativo, habilidoso e muito técnico, especialista em jogadas individuais.
 Ponto forte: Finalização de média distância e corte para dentro, criando chances e gols em espaços curtos.">
                   <img src="img/Coutinho.jpg" class="d-block w-100" alt="Torcida">
                 </div>
 
                   <div class="carousel-item" 
                      data-titulo="Bruno Henrique" 
-                     data-desc="Posição: Ponta esquerda / atacante.
-Descrição: Jogador explosivo, rápido e letal em transições, muito vertical.
+                     data-posicao="Ponta Esquerda"
+                     data-desc="Jogador explosivo, rápido e letal em transições, muito vertical.
 Ponto forte: Arrancada e velocidade, dominando contra-ataques e atacando profundidade como poucos.">
                   <img src="img/BrunoHenrique.jpg" class="d-block w-100" alt="Torcida">
                 </div>
 
                  <div class="carousel-item" 
                      data-titulo="Neymar Jr" 
-                     data-desc="Posição: Ponta esquerda / meia-atacante.
-Descrição: Extremamente criativo e decisivo.
+                     data-posicao="Ponta Esquerda"
+                     data-desc="Extremamente criativo e decisivo.
 Ponto forte: Drible e visão de jogo, desequilibrando defesas e criando chances com facilidade.">
                   <img src="img/Neymar.jpg" class="d-block w-100" alt="Torcida">
                 </div>
@@ -156,12 +164,15 @@ Ponto forte: Drible e visão de jogo, desequilibrando defesas e criando chances 
           <div class="col-lg-6 ps-lg-5"> 
             <div class="texto-conteudo">
                 <h2 class="display-5 fw-bold" id="display-titulo">Alisson</h2>
+                <h5 class="text-muted text-uppercase fw-bold mb-4" id="display-posicao">Goleiro</h5>
+                <hr class="border-3 border-sucess opacity-25 my-3">
                 <p class="lead" id="display-descricao">
                 Posição: Goleiro.
-Descrição curta: Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
+Um dos goleiros mais completos do mundo, seguro e decisivo em grandes jogos.
 Ponto forte: Reflexos e posicionamento impecáveis, além de excelente jogo com os pés.
                 </p>
-                <button class="btn btn-primary btn-lg mt-3">Saiba Mais</button>
+
+                <button class="btn btn-primary btn-lg mt-3 perfil-g">Perfil completo do jogador</button>
             </div>
           </div>
 

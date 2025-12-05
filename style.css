@@ -134,6 +134,11 @@
     opacity: 0 !important;
     pointer-events: none !important;
   }
+
+  
+.logo-cbf{
+  display: none !important;
+}
 }
 .carousel {
   touch-action: pan-y !important;
@@ -141,4 +146,46 @@
 
 .carousel{
     filter: drop-shadow(5px 5px 5px rgb(38, 38, 38));
+}
+
+
+
+/* Fontes Text */
+#display-titulo{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+  color: #0D6EFD;
+}
+#display-posicao{
+  color: #fdd316 !important;
+}
+
+#display-descricao{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+
+}
+
+.logo-cbf{
+ position: absolute;
+ left: 70%;
+ top: 61%;
+ height: 50%;
+ width: 30%;
+ opacity: 0.12;
+}
+
+.perfil-g{
+  border: #ffffff;
+  background-color: #000000d4 !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.perfil-g:hover{
+  background-color: #0D6EFD !important;
 }
