@@ -13,7 +13,7 @@
     filter: invert(1);
 }
 .navbar-toggler-icon:hover {
-    filter: invert(84%) sepia(34%) saturate(1500%) hue-rotate(1deg) brightness(103%) contrast(2000%);
+    filter: invert(1);
 }
 
 
@@ -171,21 +171,36 @@
 
 .logo-cbf{
  position: absolute;
- left: 70%;
+ left: 65%;
  top: 61%;
  height: 50%;
  width: 30%;
  opacity: 0.12;
+ transform: rotate(-15deg);
 }
 
 .perfil-g{
-  border: #ffffff;
-  background-color: #000000d4 !important;
+  border-color: #103276;
+  background-color: #10327600 !important;
+  color: #103276;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  
 }
 
 .perfil-g:hover{
-  background-color: #0D6EFD !important;
+  background-color: #103276 !important;
+border-color: #103276;
+
+}
+
+.rodape footer {
+    background-color: rgb(247, 199, 43) !important;
+    margin-bottom: none;
+}
+
+section.position-relative {
+  position: relative;
+  overflow: hidden; /* impede a imagem de ultrapassar */
 }
