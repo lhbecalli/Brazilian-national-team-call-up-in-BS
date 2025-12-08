@@ -217,4 +217,25 @@ section.position-relative {
   background-color: #020F26;
 }
 
-  
+.escalacao{
+  width: 140% !important ;
+  }
+
+
+  .ancelotti {
+    position: relative;
+    bottom: 45px;
+    left: 50px; /* move 30px para a direita */
+    width: 350px;
+    height: auto;
+    transition: transform 0.3s ease
+  }
+
+  .ancelotti:hover{
+    transform: scale(1.05);
+  }
+
+  .caixatitle{
+    background-color: #fdd316;
+    color: rgb(0, 0, 0);
+  }
