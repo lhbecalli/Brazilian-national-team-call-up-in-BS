@@ -107,7 +107,7 @@
 }
 /* Setas */
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
   /* Diminui o tamanho total do carrossel */
   .carousel-item {
@@ -138,6 +138,10 @@
   
 .logo-cbf{
   display: none !important;
+}
+
+.escalacao{
+  margin-left: auto;
 }
 }
 .carousel {
@@ -186,7 +190,6 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  
 }
 
 .perfil-g:hover{
@@ -215,27 +218,31 @@ section.position-relative {
 
 .fundo2{
   background-color: #020F26;
+  overflow: hidden;
 }
 
-.escalacao{
-  width: 140% !important ;
-  }
 
-
-  .ancelotti {
-    position: relative;
-    bottom: 45px;
-    left: 50px; /* move 30px para a direita */
-    width: 350px;
+ .ancelotti {
+    width: 100%;             /* Ocupa a largura da coluna */
+    max-width: 300px;        /* Limite para não ficar gigante no PC */
     height: auto;
-    transition: transform 0.3s ease
-  }
+    transition: transform 0.3s ease;
+    display: block;
+    /* margin-left: 250px;  <-- REMOVA ISSO */
+    margin: 0 auto;         /* Centraliza se necessário */
+}
 
-  .ancelotti:hover{
+.escalacao {
+    width: 100%;
+    max-width: 400px;        /* Ajuste conforme o tamanho da sua imagem original */
+    height: auto;
+    transition: transform 0.3s ease;
+    display: block;
+    /* margin-left: 100px !important; <-- REMOVA ISSO */
+    margin: 0 auto;
+}
+
+/* Efeito de Zoom */
+.ancelotti:hover, .escalacao:hover {
     transform: scale(1.05);
-  }
-
-  .caixatitle{
-    background-color: #fdd316;
-    color: rgb(0, 0, 0);
-  }
+}
