@@ -204,3 +204,17 @@ section.position-relative {
   position: relative;
   overflow: hidden; /* impede a imagem de ultrapassar */
 }
+
+.cbf{
+  width: 10%;
+}
+
+.ancelotti{
+ margin-left: 250px;
+}
+
+.fundo2{
+  background-color: #020F26;
+}
+
+  
