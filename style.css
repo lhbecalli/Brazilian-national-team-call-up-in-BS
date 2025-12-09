@@ -251,6 +251,8 @@ section.position-relative {
     transition: transform 0.3s ease;
     display: block;
     margin: 0 auto;
+     filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.286));
+    
 }
 @media (min-width: 769px) {
     .escalacao {
