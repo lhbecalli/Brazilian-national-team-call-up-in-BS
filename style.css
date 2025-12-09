@@ -223,14 +223,26 @@ section.position-relative {
 
 
  .ancelotti {
-    width: 100%;             /* Ocupa a largura da coluna */
-    max-width: 300px;        /* Limite para não ficar gigante no PC */
+    width: 60%;             /* Ocupa a largura da coluna */
+    max-width: 195px;        /* Limite para não ficar gigante no PC */
     height: auto;
     transition: transform 0.3s ease;
     display: block;
-    /* margin-left: 250px;  <-- REMOVA ISSO */
-    margin: 0 auto;         /* Centraliza se necessário */
+    margin: 0 auto;   
+    margin-top: -150px !important;
+
 }
+
+/* ====================== Força subida da imagem do Ancelotti no mobile ====================== */
+@media (max-width: 768px) {
+    .ancelotti {
+        display: block !important;
+        margin-top: -80px !important; 
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
 
 .escalacao {
     width: 100%;
@@ -238,11 +250,42 @@ section.position-relative {
     height: auto;
     transition: transform 0.3s ease;
     display: block;
-    /* margin-left: 100px !important; <-- REMOVA ISSO */
     margin: 0 auto;
 }
+@media (min-width: 769px) {
+    .escalacao {
+        margin-left: 300px; /* ajusta para mover mais para a direita */
+        /* ou margin-right: 50px; para mover para a esquerda */
+    }
+    .ancelotti{
+      margin-left: 150px;
+    }
+}
+
+/* ====================== AJUSTE IPAD ====================== */
+@media (min-width: 768px) and (max-width: 1366px) {
+    .ancelotti {
+        width: 50% !important;      /* Ajuste proporcional */
+        max-width: 180px;           /* Limite máximo */
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: -120px !important;       /* Mantém subida da imagem */
+        display: block !important;
+    }
+
+    .escalacao {
+        width: 90%;                 /* Ajuste proporcional */
+        max-width: 350px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 0;
+        display: block;
+    }
+}
+
 
 /* Efeito de Zoom */
 .ancelotti:hover, .escalacao:hover {
     transform: scale(1.05);
 }
+
