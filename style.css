@@ -178,9 +178,9 @@
  left: 65%;
  top: 61%;
  height: 50%;
- width: 30%;
- opacity: 0.12;
- transform: rotate(-15deg);
+ width: 25%;
+ opacity: 0.25;
+ transform: rotate(-13deg);
 }
 
 .perfil-g{
