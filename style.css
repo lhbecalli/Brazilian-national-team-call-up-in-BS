@@ -1,4 +1,5 @@
 
+
 /* Estilos do NavBar */
 .navbar {
     background-color: rgb(152, 135, 81) !important;
@@ -159,7 +160,7 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #0D6EFD;
 }
 #display-posicao{
@@ -297,4 +298,3 @@ section.position-relative {
 .ancelotti:hover, .escalacao:hover {
     transform: scale(1.05);
 }
-
