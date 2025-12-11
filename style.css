@@ -1,26 +1,22 @@
 
-
 /* Estilos do NavBar */
 .navbar {
-    background-color: rgb(152, 135, 81) !important;
+    background-color: rgb(247, 199, 43) !important;
     opacity: 80% !important;
 }
 
 .navbar .navbar-brand{
-    color: aliceblue !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .navbar .navbar-toggler-icon{
-    filter: invert(1);
-}
-.navbar-toggler-icon:hover {
-    filter: invert(1);
+    color: #020F26;
 }
 
 
 
 .navbar .nav-link{
-    color: aliceblue !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .navbar .btn.btn-outline-success{
@@ -44,7 +40,7 @@
 }
 
 .home:hover{
-    color:rgb(220, 220, 220) !important;
+     color: rgba(26, 23, 23, 0.512) !important;
 }
 
 
@@ -145,8 +141,12 @@
   margin-left: auto;
 }
 }
+/* Correção do Touch */
 .carousel {
-  touch-action: pan-y !important;
+    /* Permite rolagem vertical da página, mas não bloqueia o gesto horizontal do script */
+    touch-action: pan-y; 
+    /* Sombra opcional que você já tinha */
+    filter: drop-shadow(5px 5px 5px rgb(38, 38, 38));
 }
 
 .carousel{
@@ -160,7 +160,7 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   color: #0D6EFD;
 }
 #display-posicao{
@@ -269,7 +269,7 @@ section.position-relative {
         margin-left: -100px;
         
       
-}
+}}
 
 /* ====================== AJUSTE IPAD ====================== */
 @media (min-width: 768px) and (max-width: 1366px) {
@@ -297,4 +297,34 @@ section.position-relative {
 /* Efeito de Zoom */
 .ancelotti:hover, .escalacao:hover {
     transform: scale(1.05);
+}
+
+
+/* Adicione isso ao final do seu CSS */
+
+/* Ajuste para Tablets (iPads e Surface) */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .carousel-control-prev {
+        left: 0 !important; /* Traz a seta para dentro */
+    }
+
+    .carousel-control-next {
+        right: 0 !important; /* Traz a seta para dentro */
+    }
+    
+    /* Garante que as setas sejam visíveis e clicáveis */
+    .carousel-control-prev,
+    .carousel-control-next {
+        opacity: 0.8 !important; 
+        pointer-events: auto !important;
+    }
+}
+
+.carousel-item img {
+    /* Impede que o usuário "arraste" a imagem como arquivo, forçando o swipe do carrossel */
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
