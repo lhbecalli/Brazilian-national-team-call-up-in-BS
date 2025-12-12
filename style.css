@@ -2,7 +2,7 @@
 /* Estilos do NavBar */
 .navbar {
     background-color: rgb(247, 199, 43) !important;
-    opacity: 80% !important;
+    opacity: 0.8 !important;
 }
 
 .navbar .navbar-brand{
@@ -20,8 +20,8 @@
 }
 
 .navbar .btn.btn-outline-success{
-  border-color: white !important;
-    color: rgb(213, 218, 222) !important;
+  border-color: rgb(0, 0, 0) !important;
+    color: rgb(16, 16, 17) !important;
   }
 
   .navbar .btn.btn-outline-success:hover{
@@ -30,7 +30,7 @@
   }
 
   .btn-outline-success:hover {
-    background-color: white !important; 
+    background-color: rgba(15, 15, 15, 0) !important; 
 }
 
 
@@ -141,11 +141,10 @@
   margin-left: auto;
 }
 }
-/* Correção do Touch */
+
+
 .carousel {
-    /* Permite rolagem vertical da página, mas não bloqueia o gesto horizontal do script */
     touch-action: pan-y; 
-    /* Sombra opcional que você já tinha */
     filter: drop-shadow(5px 5px 5px rgb(38, 38, 38));
 }
 
@@ -252,13 +251,13 @@ section.position-relative {
     transition: transform 0.3s ease;
     display: block;
     margin: 0 auto;
+
      filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.286));
     
 }
 @media (min-width: 769px) and (max-width:992px){
     .escalacao {
-        margin-left: 300px; /* ajusta para mover mais para a direita */
-        /* ou margin-right: 50px; para mover para a esquerda */
+        margin-left: 300px; 
     }
     .ancelotti{
       margin-left: 150px;
@@ -331,18 +330,25 @@ section.position-relative {
     font-weight: bold;
     font-size: 17px;
     text-transform: uppercase;
-     z-index: 9999;
+    z-index: 9999;
 }
 
 
 /* Texto com fundo separado */
 .ancelotti-text {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(20, 20, 20, 0.87);
     color: white;
     padding: 12px 15px;
     font-size: 14px;
     backdrop-filter: blur(4px);
-     z-index: 9999;
+    z-index: 9999;
 }
 
-
+@media (min-width: 992px){
+  .ancelotti-wrapper{
+    transform: translateX(-100px);
+  }
+  .escalacao{
+       margin-left: 300px; 
+}
+}
