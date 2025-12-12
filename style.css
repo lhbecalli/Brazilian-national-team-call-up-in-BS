@@ -20,7 +20,7 @@
 }
 
 .navbar .btn.btn-outline-success{
-  border-color: rgb(0, 0, 0) !important;
+  border-color: white !important;
     color: rgb(213, 218, 222) !important;
   }
 
@@ -282,7 +282,10 @@ section.position-relative {
         display: block !important;
     }
 
-
+    .logo-cbf{
+      display: none;
+    }
+    
     .escalacao {
         width: 90%;                 /* Ajuste proporcional */
         max-width: 350px;
@@ -297,34 +300,4 @@ section.position-relative {
 /* Efeito de Zoom */
 .ancelotti:hover, .escalacao:hover {
     transform: scale(1.05);
-}
-
-
-/* Adicione isso ao final do seu CSS */
-
-/* Ajuste para Tablets (iPads e Surface) */
-@media (min-width: 768px) and (max-width: 1200px) {
-    .carousel-control-prev {
-        left: 0 !important; /* Traz a seta para dentro */
-    }
-
-    .carousel-control-next {
-        right: 0 !important; /* Traz a seta para dentro */
-    }
-    
-    /* Garante que as setas sejam visíveis e clicáveis */
-    .carousel-control-prev,
-    .carousel-control-next {
-        opacity: 0.8 !important; 
-        pointer-events: auto !important;
-    }
-}
-
-.carousel-item img {
-    /* Impede que o usuário "arraste" a imagem como arquivo, forçando o swipe do carrossel */
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
