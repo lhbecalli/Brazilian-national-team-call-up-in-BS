@@ -23,3 +23,4 @@ if(elementoPosicao){
 document.getElementById('display-descricao').innerText = novaDescricao;
 
 });
+
