@@ -352,3 +352,7 @@ section.position-relative {
        margin-left: 300px; 
 }
 }
+
+.logo-cbf2{
+  z-index: 1;
+}
